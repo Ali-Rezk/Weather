@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+
+    <script
+      src="https://kit.fontawesome.com/967c8d9878.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="../CSS/styles.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg site-nav">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="../Images/logo.png" alt="Logo" class="logo" />
+          <div class="logo-text">
+            <h1 class="site-title">Company name</h1>
+            <small class="site-description">tagline goes here</small>
+          </div>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse w-50" id="navbarNavAltMarkup">
+          <div class="navbar-nav w-100 justify-content-between">
+            <a class="nav-link ms-md-2" href="./index.html">Home</a>
+            <a class="nav-link ms-md-2" href="./notFound.html">News</a>
+            <a class="nav-link ms-md-2" href="./notFound.html">Live cameras</a>
+            <a class="nav-link ms-md-2" href="./notFound.html">Photos</a>
+            <a class="nav-link ms-md-2 active" href="./notFound.html"
+              >Contact</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div class="container">
+        <div class="breadcrumb">
+          <a href="./index.html">Home</a>
+          <span><img src="../Images/arrow-gray.png" alt="" /></span>
+          <span>Contact</span>
+        </div>
+      </div>
+
+      <div class="fullwidth-block">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5">
+              <div class="contact-details">
+                <div class="map" id="map"></div>
+                <div class="contact-info">
+                  <address>
+                    <span>
+                      <img src="../Images/icon-marker@2x.png" alt="" />
+                    </span>
+                    <span>
+                      Company Name INC. <br />
+                      2803 Avenue Street, Los Angeles
+                    </span>
+                  </address>
+
+                  <a href="#"
+                    ><img src="../Images/icon-phone@2x.png" alt="" />+1 800 314
+                    235</a
+                  >
+                  <a href="#"
+                    ><img
+                      src="../Images/icon-envelope@2x.png"
+                      alt=""
+                    />contact@companyname.com</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 ms-auto">
+              <h2 class="section-title">Contact us</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Commodi consectetur inventore ducimus, facilis, numquam id
+                soluta omnis eius recusandae nesciunt vero repellat harum cum.
+                Nisi facilis odit hic, ipsum sed!
+              </p>
+              <form action="#" class="contact-form">
+                <div class="row">
+                  <div class="col-md-6">
+                    <input type="text" placeholder="Your name..." />
+                  </div>
+                  <div class="col-md-6">
+                    <input type="text" placeholder="Email Addresss..." />
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <input type="text" placeholder="Company name..." />
+                  </div>
+                  <div class="col-md-6">
+                    <input type="text" placeholder="Website..." />
+                  </div>
+                </div>
+                <textarea name="" placeholder="Message..."></textarea>
+                <div class="text-end">
+                  <input type="submit" placeholder="Send message" />
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <form action="#" class="subscribe-form">
+              <input
+                type="text"
+                placeholder="Enter your email to subscribe..."
+              />
+              <input type="submit" value="Subscribe" />
+            </form>
+          </div>
+          <div class="col-md-3 ms-auto">
+            <div class="social-links">
+              <a href="#"><i class="fa fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+              <a href="#"><i class="fa fa-google-plus"></i></a>
+              <a href="#"><i class="fa fa-pinterest"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <p class="colophon">
+          Copyright 2014 Company name. Designed by Themezy. All rights reserved
+        </p>
+      </div>
+    </footer>
+    <script src="../Js/bootstrap.bundle.min.js"></script>
+    <script src="../Js/index.js"></script>
+  </body>
+</html>
